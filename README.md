@@ -9,7 +9,16 @@ Linux] or Apple’s OS X on my personal machines. As such, these dotfiles are
 tailored for use with those two operating systems.
 
 
+Status
+------
+Currently only my [Vim configuration] is present in this repository, but that's
+going to change. Zsh is coming.
+
+
+
 [fork dotfiles]: http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/
   "Dotfiles Are Meant to Be Forked"
 [Arch Linux]: https://www.archlinux.org/ "Arch Linux"
+
+[Vim configuration]: config.d/vim/ "Vim configuration"
 

@@ -1,0 +1,9 @@
+" Disable vi-compatibility
+set nocompatible
+
+for file in split(glob("$VIM_CONFIG_DIR/**/*.vim"), "\n")
+  execute "source" file
+endfor
+
+"runtime! "config.d/**/*.vim"
+
