@@ -44,3 +44,6 @@ nnoremap <leader>bd :bd<CR>
 nnoremap <leader>lm :Limelight!!<CR>
 nnoremap <leader>G :Goyo<CR>
 
+" H: Go to beginning of line.
+noremap H ^
+

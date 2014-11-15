@@ -42,6 +42,7 @@ NeoBundle "airblade/vim-gitgutter"
 " Code completion
 "NeoBundle "ervandew/supertab"
 NeoBundle "SirVer/ultisnips"
+NeoBundle "honza/vim-snippets"
 " When compiling YouCompleteMe ensure that it finds a version of python 2.7.x,
 " otherwise it won't compile. Preferably make sure it's the same version that
 " Vim is using. You can switch back to a different global python after compiling
@@ -61,6 +62,8 @@ NeoBundle "gkz/vim-ls" " LiveScript
 " Syntax
 NeoBundle "scrooloose/syntastic"
 NeoBundle "saltstack/salt-vim"
+NeoBundle "othree/html5.vim"
+NeoBundle "tpope/vim-markdown"
 
 " Pretty colors?
 NeoBundle "chrisbra/Colorizer"
