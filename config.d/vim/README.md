@@ -21,8 +21,8 @@ Everything in this section is organized into the following structure:
     |       `-- filetype.vim
     `-- vimrc
 
-`vimrc` is kept really simple and only contains a block used to source everthing
-else.
+`vimrc` is kept really simple and only contains a block used to source
+everything else.
 
 `config.d` is a directory where almost all user specified settings are stored.
 The structure is quite specific and order sensitive, but is evolving. The key is
