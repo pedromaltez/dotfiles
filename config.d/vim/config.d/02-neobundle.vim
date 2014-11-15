@@ -12,8 +12,8 @@ NeoBundle "Shougo/vimproc.vim", {
   \ "build" : {
   \   "mac" : "make -f make_mac.mak",
   \   "linux" : "make",
-  \   "unix" : "gmake",
-  \ },
+  \   "unix" : "gmake"
+  \ }
 \ }
 
 " Style configuration
