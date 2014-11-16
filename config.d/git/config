@@ -1,0 +1,20 @@
+[user]
+  name = Pedro Maltez
+  email = maltezpedro@gmail.com
+[alias]
+  st = status -s
+  ci = commit
+  co = checkout
+  br = branch
+  unstage = reset HEAD --
+  last = log -1 HEAD
+  cl = config --list
+  lg = log --abbrev-commit --decorate --pretty=oneline
+  dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%ar%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+[color]
+  diff = auto
+  status = auto
+  ui = auto
+[push]
+  default = simple
+
