@@ -86,9 +86,9 @@ required. The order and conditions of sourcing are as follows:
     zshrc               if interactive shell
     system.d/zlogin     if login shell
     zlogin              if login shell
-    system/zlogout      if login shell
-    zlogout             if login shell
+    system/zlogout      if login shell, on logout
+    zlogout             if login shell, on logout
 
-`zprofile`, `zlogin` and their respective systemwide files aren't being used
-for anything right now.
+`zprofile`, `zlogin`, `zlogout` and their respective systemwide files aren't
+being used for anything right now.
 
