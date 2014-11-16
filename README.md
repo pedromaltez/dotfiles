@@ -40,5 +40,5 @@ my computer? There's an XDG Base Directory for that. Use it. `/rant`
   "XDG Base Directory Specification"
 
 [Vim configuration]: config.d/vim/ "Vim configuration"
-[Zsh configration]:  config.d/zsh/ "Zsh configuration"
+[Zsh configuration]: config.d/zsh/ "Zsh configuration"
 
