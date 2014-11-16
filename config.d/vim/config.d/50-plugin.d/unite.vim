@@ -50,7 +50,7 @@ autocmd FileType unite call s:unite_settings()
 nnoremap [unite] <Nop>
 nmap , [unite]
 
-nnoremap [unite], :Unite -no-split -auto-preview -start-insert file_rec/async:!<CR>
+nnoremap [unite], :Unite -no-split -start-insert file_rec<CR>
 
 " General fuzzy search
 nnoremap <silent> [unite]<space> :<C-u>Unite
