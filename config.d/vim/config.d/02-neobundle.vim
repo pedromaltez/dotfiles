@@ -76,6 +76,7 @@ NeoBundle "justinmk/vim-gtfo"
 NeoBundle "kana/vim-textobj-user"
 NeoBundle "reedes/vim-textobj-quote"
 NeoBundle "tpope/vim-surround"
+NeoBundle "haya14busa/incsearch.vim"
 
 " ------------------------------------------------------------------------------
 
@@ -85,4 +86,3 @@ call neobundle#end()
 filetype plugin indent on
 
 NeoBundleCheck
-
