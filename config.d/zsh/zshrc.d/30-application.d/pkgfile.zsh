@@ -6,4 +6,3 @@
 if [[ $PLATFORM == "linux" && -e $(command -v pkgfile) ]]; then
   source /usr/share/doc/pkgfile/command-not-found.zsh
 fi
-

@@ -4,4 +4,3 @@
 if [[ $TERM == "xterm-termite" ]]; then
   eval $(dircolors $XDG_CONFIG_HOME/termite/dircolors)
 fi
-

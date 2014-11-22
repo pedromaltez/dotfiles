@@ -3,4 +3,3 @@
 for file in $ZDOTDIR/zshenv.d/**/*.zsh; do
   source $file
 done
-

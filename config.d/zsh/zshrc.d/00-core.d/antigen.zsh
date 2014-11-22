@@ -32,4 +32,3 @@ antigen bundle pyenv
 antigen theme robbyrussell
 
 antigen apply
-
