@@ -68,13 +68,20 @@ FileType python set sw=4`. Placing those settings in their respective
 __Vim__ take care of enabling those settings on files of the specific type.
 
 
+Further reading
+---------------
+- [Vim]     - The homepage
+- [usevim]  - Useful resource
+- [NeoVim]  - Alternative modal text editor
+
+
 
 [Vim]: http://www.vim.org/ "Vim"
 [NeoVim]: https://neovim.org/ "NeoVim"
+[usevim]: http://usevim.com/ "usevim"
 
 [vimrc]: vimrc "vimrc"
 [config.d]: config.d/ "config.d"
 [50-plugin.d]: config.d/50-plugin.d/ "50-plugin.d"
 [vimfiles]: vimfiles/ "vimfiles"
 [ftplugin]: vimfiles/ftplugin/ "ftplugin"
-
