@@ -55,7 +55,7 @@ Other settings which can be configured in __Karabiner__, like key repeat time.
 
 ![Karabiner configuration][Karabiner repeat configuration]
 
-That's it! __Karabiner__/__Seil__ is set up and `capslock` now sends `ctrl` +
+That’s it! __Karabiner__/__Seil__ is set up and `capslock` now sends `ctrl` +
 `shift` + `alt` + `cmd` instead, which can be used for awesome new systemwide
 keyboard shortcuts.
 
