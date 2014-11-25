@@ -65,6 +65,8 @@ NeoBundle "scrooloose/syntastic"
 NeoBundle "saltstack/salt-vim"
 NeoBundle "othree/html5.vim"
 NeoBundle "tpope/vim-markdown"
+NeoBundle "slim-template/vim-slim"
+NeoBundle "digitaltoad/vim-jade"
 
 " Pretty colors?
 NeoBundle "chrisbra/Colorizer"
