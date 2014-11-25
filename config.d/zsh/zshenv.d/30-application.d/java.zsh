@@ -1,2 +1,3 @@
-export JENV_ROOT=$USER_BIN_HOME/jenv
+#!/usr/bin/zsh
 
+export JENV_ROOT=$USER_BIN_HOME/lib/jenv

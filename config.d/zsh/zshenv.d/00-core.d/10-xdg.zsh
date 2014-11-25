@@ -9,5 +9,5 @@
 
 # Extra directory used for personal binaries
 # Not under the XDG namespace because it is _not_ part of the XDG spec
-export USER_BIN_HOME=$HOME/bin
+export USER_BIN_HOME=$HOME/usr
 

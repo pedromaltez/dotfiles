@@ -1,4 +1,3 @@
 #!/usr/bin/zsh
 
-source $USER_BIN_HOME/z/z.sh
-
+source $USER_BIN_HOME/lib/z/z.sh

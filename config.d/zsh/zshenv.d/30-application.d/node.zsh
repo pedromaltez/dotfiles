@@ -1,7 +1,9 @@
+#!/usr/bin/zsh
+
 # Node/npm setup
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 
-export NDENV_ROOT=$USER_BIN_HOME/ndenv
+export NDENV_ROOT=$USER_BIN_HOME/lib/ndenv
 
 # This could be problematic... either don't ever use system node/npm or have it
 # store its packages alongside those of the same version of node installed
@@ -17,4 +19,3 @@ export NDENV_ROOT=$USER_BIN_HOME/ndenv
 export NPM_CONFIG_PREFIX=$NDENV_ROOT/versions/$(node --version)
 
 export NPM_CONFIG_CACHE=$XDG_CACHE_HOME/node/npm/bin
-
