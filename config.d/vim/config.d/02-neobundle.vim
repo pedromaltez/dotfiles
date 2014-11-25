@@ -34,6 +34,7 @@ NeoBundle "bling/vim-airline"
 NeoBundle "junegunn/limelight.vim"
 NeoBundle "junegunn/goyo.vim"
 NeoBundle "triglav/vim-visual-increment"
+NeoBundle "scrooloose/nerdcommenter"
 
 " VCS
 NeoBundle "tpope/vim-fugitive"
