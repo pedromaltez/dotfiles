@@ -1,12 +1,14 @@
 #!/usr/bin/zsh
 # git clone git@github.com:zsh-users/antigen.git
 # $XDG_CACHE_HOME/zsh/plugins/antigen
+
 source $XDG_CACHE_HOME/zsh/plugins/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
 antigen bundle git
 antigen bundle github
+antigen bundle pedromaltez/hub --loc=etc/zsh
 antigen bundle heroku
 antigen bundle tmux
 antigen bundle tmuxinator
