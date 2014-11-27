@@ -6,6 +6,8 @@
   ci = commit
   co = checkout
   br = branch
+  new-branch = checkout -b
+  nb = new-branch
   unstage = reset HEAD --
   last = log -1 HEAD
   cl = config --list
