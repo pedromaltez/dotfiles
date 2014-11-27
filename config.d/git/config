@@ -9,6 +9,7 @@
   new-branch = checkout -b
   nb = new-branch
   unstage = reset HEAD --
+  undo = reset --soft HEAD~1
   last = log -1 HEAD
   cl = config --list
   lg = log --abbrev-commit --decorate --pretty=oneline
