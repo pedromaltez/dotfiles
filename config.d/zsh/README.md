@@ -12,25 +12,25 @@ structure to keep things organized and help ensure order sensitivity is
 respected.
 
     zsh/
-    |-- README.md
-    |-- system.d
-    |   `-- zshenv
-    |-- zshenv
-    |-- zshenv.d
-    |   |-- 00-core.d
-    |   |   `-- priority-files.zsh
-    |   |-- 30-application.d
-    |   |   `-- application-name.zsh
-    |   `-- 99-secret.d
-    |       `-- secrets.zsh
-    |-- zshrc
-    `-- zshrc.d
-        |-- 00-core.d
-        |   `-- priority-files.zsh
-        |-- 30-application.d
-        |   `-- application-name.zsh
-        `-- 99-secret.d
-            `-- secrets.zsh
+    ├── README.md
+    ├── system.d
+    │   └── zshenv
+    ├── zshenv
+    ├── zshenv.d
+    │   ├── 00-core.d
+    │   │   └── priority-files.zsh
+    │   ├── 30-application.d
+    │   │   └── application-name.zsh
+    │   └── 99-secret.d
+    │       └── secrets.zsh
+    ├── zshrc
+    └── zshrc.d
+        ├── 00-core.d
+        │   └── priority-files.zsh
+        ├── 30-application.d
+        │   └── application-name.zsh
+        └── 99-secret.d
+            └── secrets.zsh
 
 `.zshenv` and `.zshrc` are [symlinks][symlink.md] to their respective non
 dotfile equivalents, and are omitted from the tree structure above.

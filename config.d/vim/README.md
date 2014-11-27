@@ -12,20 +12,20 @@ will be automatically sourced, but I’ve developed a structure to keep things
 organized and help ensure order sensitivity is respected.
 
     vim/
-    |-- README.md
-    |-- config.d
-    |   |-- 00-core.vim
-    |   |-- 10-functions.vim
-    |   |-- 30-behavior.vim
-    |   |-- 40-appearance.vim
-    |   |-- 50-plugin.d
-    |   |   `-- plugin-name.vim
-    |   |-- 80-keybindings.vim
-    |   `-- 90-miscellaneous.vim
-    |-- vimfiles
-    |   `-- ftplugin
-    |       `-- filetype.vim
-    `-- vimrc
+    ├── README.md
+    ├── config.d
+    │   ├── 00-core.vim
+    │   ├── 10-functions.vim
+    │   ├── 30-behavior.vim
+    │   ├── 40-appearance.vim
+    │   ├── 50-plugin.d
+    │   │   └── plugin-name.vim
+    │   ├── 80-keybindings.vim
+    │   └── 90-miscellaneous.vim
+    ├── vimfiles
+    │   └── ftplugin
+    │       └── filetype.vim
+    └── vimrc
 
 
 ### vimrc ###
