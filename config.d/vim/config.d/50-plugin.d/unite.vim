@@ -5,21 +5,22 @@ call unite#filters#matcher_default#use(["matcher_fuzzy"])
 call unite#filters#sorter_default#use(["sorter_rank"])
 
 " Ignores
-call unite#custom_source("file_rec,file_rec/async,file_mru,file,buffer,grep",
-      \ "ignore_pattern", join([
-      \ "tmp/",
-      \ "\.git",
-      \ "\.so",
-      \ "\.swp",
-      \ "\.zip",
-      \ "\.gif",
-      \ "\.jpg",
-      \ "\.jpeg",
-      \ "\.png/",
-      \ "\.log/",
-      \ "\.egg",
-      \ ".sass-cache",
-      \ ], "\|"))
+call unite#custom#source('file_rec,file_rec/async,file_mru,file,buffer,grep',
+  \ 'ignore_pattern', join([
+    \ 'tmp/',
+    \ '\.git',
+    \ '\.so',
+    \ '\.swp',
+    \ '\.zip',
+    \ '\.gif',
+    \ '\.jpg',
+    \ '\.jpeg',
+    \ '\.png/',
+    \ '\.log/',
+    \ '\.egg',
+    \ '.sass-cache'
+  \ ], '\|')
+\ )
 
 " Start in insert mode
 let g:unite_enable_start_insert = 1
