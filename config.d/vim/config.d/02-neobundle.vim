@@ -53,7 +53,6 @@ NeoBundle "Valloric/YouCompleteMe"
 " Ruby
 NeoBundle "vim-ruby/vim-ruby"
 NeoBundle "tpope/vim-rails"
-NeoBundle "tpope/vim-bundler"
 
 " JavaScript
 NeoBundle "kchmck/vim-coffee-script"
