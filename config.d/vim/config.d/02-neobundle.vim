@@ -79,6 +79,7 @@ NeoBundle "kana/vim-textobj-user"
 NeoBundle "reedes/vim-textobj-quote"
 NeoBundle "tpope/vim-surround"
 NeoBundle "haya14busa/incsearch.vim"
+NeoBundle "gelguy/snapshot.vim"
 
 " ------------------------------------------------------------------------------
 
