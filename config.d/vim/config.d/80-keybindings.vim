@@ -38,12 +38,16 @@ nnoremap <leader>w  :w!<CR>
 " Delete buffer
 nnoremap <leader>bd :bd<CR>
 
-" nnoremap <leader>= :vert new<CR>
-" nnoremap <leader>fl <C-w>| && <C-w>_
+nnoremap <leader>Q :q<CR>
+
+nnoremap <leader>= :vertical new<CR>
+nnoremap <leader>- :new<CR>
 
 nnoremap <leader>lm :Limelight!!<CR>
 nnoremap <leader>G :Goyo<CR>
 
-" H: Go to beginning of line.
+" Go to beginning of line
 noremap H ^
+" Go to end of line
+noremap L $
 
