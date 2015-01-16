@@ -8,6 +8,7 @@
   br = branch
   new-branch = checkout -b
   nb = new-branch
+  rename = branch -m
   unstage = reset HEAD --
   undo = reset --soft HEAD~1
   last = log -1 HEAD
