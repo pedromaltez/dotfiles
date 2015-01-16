@@ -73,12 +73,15 @@ to be placed in the correct directory for the system in which they are
 installed.
 
 The default location for the systemwide __zsh__ configuration in __Arch Linux__
-is `/etc/zsh/*`, and in OS X it seems to be `/etc/*`.
+is `/etc/zsh/*`, and in OS X it is `/etc/*`, even when using __homebrew’s__
+`zsh`.
 
-Tip: As a last resort to avoid extra clutter in your `$HOME` folder, just place
-`.zshenv` in your `$HOME` and set the `$ZDOTDIR` variable to the real location
-of your user specific __zsh__ settings. `$HOME` is the default location for
-__zsh’s__ user specific configuration files.
+__Note__: Administrator access is required to modify files in `/etc/` so it
+might not always be possible to change those files. As a last resort, to avoid
+extra clutter in your `$HOME` folder, just place `.zshenv` in your `$HOME` and
+set the `$ZDOTDIR` variable to the real location of your user specific __zsh__
+settings.  `$HOME` is the default location for __zsh’s__ user specific
+configuration files.
 
 
 Files
