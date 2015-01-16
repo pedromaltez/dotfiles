@@ -41,14 +41,14 @@ NeoBundle "tpope/vim-fugitive"
 NeoBundle "airblade/vim-gitgutter"
 
 " Code completion
-"NeoBundle "ervandew/supertab"
+NeoBundle "ervandew/supertab"
 NeoBundle "SirVer/ultisnips"
 NeoBundle "honza/vim-snippets"
 " When compiling YouCompleteMe ensure that it finds a version of python 2.7.x,
 " otherwise it won't compile. Preferably make sure it's the same version that
 " Vim is using. You can switch back to a different global python after compiling
 " if using pyenv
-NeoBundle "Valloric/YouCompleteMe"
+"NeoBundle "Valloric/YouCompleteMe"
 
 " Ruby
 NeoBundle "vim-ruby/vim-ruby"
