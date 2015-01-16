@@ -7,7 +7,6 @@ call unite#filters#sorter_default#use(["sorter_rank"])
 " Ignores
 call unite#custom#source('file_rec,file_rec/async,file_mru,file,buffer,grep',
   \ 'ignore_pattern', join([
-    \ 'tmp/',
     \ '\.git',
     \ '\.so',
     \ '\.swp',
@@ -18,7 +17,9 @@ call unite#custom#source('file_rec,file_rec/async,file_mru,file,buffer,grep',
     \ '\.png/',
     \ '\.log/',
     \ '\.egg',
-    \ '.sass-cache'
+    \ '.sass-cache',
+    \ 'node_modules/',
+    \ 'vendor/bundle/',
   \ ], '\|')
 \ )
 
@@ -51,7 +52,7 @@ autocmd FileType unite call s:unite_settings()
 nnoremap [unite] <Nop>
 nmap , [unite]
 
-nnoremap [unite], :Unite -no-split -start-insert file_rec<CR>
+nnoremap <silent> [unite], :Unite -buffer-name=files -start-insert buffer file_rec/async<CR>
 
 " General fuzzy search
 nnoremap <silent> [unite]<space> :<C-u>Unite
@@ -67,9 +68,9 @@ nnoremap <silent> [unite]y :<C-u>Unite -buffer-name=yanks history/yank<CR>
 function! s:unite_settings()
   imap <buffer> <C-j> <Plug>(unite_select_next_line)
   imap <buffer> <C-k> <Plug>(unite_select_previous_line)
-  imap <silent><buffer><expr> <C-x> unite#do_action("split")
-  imap <silent><buffer><expr> <C-v> unite#do_action("vsplit")
-  imap <silent><buffer><expr> <C-t> unite#do_action("tabopen")
+  imap <silent><buffer><expr> <C-x> unite#do_action('split')
+  imap <silent><buffer><expr> <C-v> unite#do_action('vsplit')
+  imap <silent><buffer><expr> <C-t> unite#do_action('tabopen')
   nmap <buffer> <ESC> <Plug>(unite_exit)
 endfunction
 
