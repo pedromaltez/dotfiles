@@ -1,19 +1,19 @@
 {
-  "color_scheme": "Packages/Base16 Color Schemes/base16-ashes.dark.tmTheme",
-  "font_face": "Source Code Pro for Powerline",
-  "font_size": 14,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "margin": 4,
-  "rulers":
-  [
-    80
-  ],
-  "scroll_past_end": true,
-  "tab_size": 2,
-  "theme": "Soda Dark 3.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
+	"color_scheme": "Packages/Base16 Color Schemes/base16-ashes.dark.tmTheme",
+	"font_face": "Source Code Pro for Powerline",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"margin": 4,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"tab_size": 2,
+	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
