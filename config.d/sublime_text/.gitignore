@@ -1,0 +1,6 @@
+user/*.cache
+
+user/Package\ Control.last-run
+user/Package\ Control.*-ca-bundle
+
+user/Side\ Bar\ Folders*
