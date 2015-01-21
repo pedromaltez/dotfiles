@@ -22,6 +22,9 @@ Important `ln` options to understand are:
     -r, --relative  Allows ln to work out the relative paths
     -f, --force     Overwrites the target if it exists
 
+__Note:__ `-r`, or `--relative`, requires __GNU__ `ln`. Apple’s `ln` does not
+currently this option.
+
 For full details check `man ln`, alternatively see the [online manual page for
 `ln`][man ln].
 
