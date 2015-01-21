@@ -1,6 +1,6 @@
 #!/bin/zsh
 
 export PATH=$NDENV_ROOT/bin:$PATH
-export PATH=$PATH:$HOME/bin/npm/bin
+export PATH=$HOME/bin/npm/bin:$PATH
 
 eval "$(ndenv init -)"
