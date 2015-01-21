@@ -1,4 +1,5 @@
-#!/usr/bin/zsh
+#!/usr/bin/env zsh
+
 # git clone git@github.com:zsh-users/antigen.git
 # $XDG_CACHE_HOME/zsh/plugins/antigen
 

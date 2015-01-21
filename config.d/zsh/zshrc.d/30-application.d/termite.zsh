@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/bin/env zsh
 
 # Make termite show colored directories with `ls`
 if [[ $TERM == "xterm-termite" ]]; then

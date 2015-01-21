@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/bin/env zsh
 
 # Ruby tools
 export IRBRC=$XDG_CONFIG_HOME/irb/irbrc

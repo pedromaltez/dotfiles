@@ -1,3 +1,3 @@
-#!/usr/bin/zsh
+#!/usr/bin/env zsh
 
 eval "$(hub alias -s)"

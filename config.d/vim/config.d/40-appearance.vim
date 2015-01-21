@@ -87,5 +87,3 @@ set showcmd
 "  autocmd InsertLeave * if &modifiable && &ft!="unite" | match ExtraWhitespace /\s\+$/ | endif
 "  autocmd BufWinLeave * if &modifiable && &ft!="unite" | call clearmatches() | endif
 "augroup END
-
-

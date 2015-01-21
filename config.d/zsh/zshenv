@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/bin/env zsh
 
 for file in $ZDOTDIR/zshenv.d/**/*.zsh; do
   source $file

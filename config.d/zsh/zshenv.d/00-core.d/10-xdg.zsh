@@ -1,4 +1,5 @@
-#!/usr/bin/zsh
+#!/usr/bin/env zsh
+
 # Duplicate what is present in /etc/zsh/zshenv
 # Set the remaining XDG base directories
 [[ -n $XDG_CONFIG_HOME ]] || export XDG_CONFIG_HOME=$HOME/.config
@@ -10,4 +11,3 @@
 # Extra directory used for personal binaries
 # Not under the XDG namespace because it is _not_ part of the XDG spec
 export USER_BIN_HOME=$HOME/usr
-

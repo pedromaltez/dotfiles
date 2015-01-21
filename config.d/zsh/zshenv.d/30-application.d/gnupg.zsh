@@ -1,2 +1,3 @@
-export GNUPGHOME=$XDG_CONFIG_HOME/gnupg
+#!/usr/bin/env zsh
 
+export GNUPGHOME=$XDG_CONFIG_HOME/gnupg
