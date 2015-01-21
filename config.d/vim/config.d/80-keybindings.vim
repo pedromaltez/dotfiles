@@ -50,4 +50,3 @@ nnoremap <leader>G :Goyo<CR>
 noremap H ^
 " Go to end of line
 noremap L $
-

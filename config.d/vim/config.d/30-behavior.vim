@@ -41,4 +41,3 @@ set autoread
 " Add a virtual space to the end of lines in normal mode, allows pressing `i`
 " instead of `A`
 set virtualedit=onemore
-

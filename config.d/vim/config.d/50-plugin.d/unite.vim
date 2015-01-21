@@ -73,4 +73,3 @@ function! s:unite_settings()
   imap <silent><buffer><expr> <C-t> unite#do_action('tabopen')
   nmap <buffer> <ESC> <Plug>(unite_exit)
 endfunction
-

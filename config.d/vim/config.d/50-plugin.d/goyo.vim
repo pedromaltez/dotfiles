@@ -4,4 +4,3 @@ endfunction
 
 autocmd! User GoyoEnter
 autocmd  User GoyoEnter nested call <SID>goyo_enter()
-

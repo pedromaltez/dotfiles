@@ -3,4 +3,3 @@ function! DeleteCurrentFile()
   call delete(expand("%"))
   echo "Deleted current file: " expand("%")
 endfunction
-

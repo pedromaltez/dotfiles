@@ -5,4 +5,3 @@ let g:airline_powerline_fonts = 1
 
 " Always display statusline/airline
 set laststatus=2
-
