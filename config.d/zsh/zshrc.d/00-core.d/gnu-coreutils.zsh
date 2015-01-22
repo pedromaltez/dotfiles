@@ -6,6 +6,7 @@ if [[ $PLATFORM == "darwin" ]]; then
   export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 fi
 
+alias ls="ls -G --color --time-style=long-iso"
 alias la="ls -la"
 # Kind of like 'la', but with permissions displayed in octal. Doesn't work
 # great.
