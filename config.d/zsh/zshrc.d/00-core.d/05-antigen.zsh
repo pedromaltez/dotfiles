@@ -13,6 +13,7 @@ antigen bundle pedromaltez/hub --loc=etc/zsh
 antigen bundle heroku
 antigen bundle tmux
 antigen bundle tmuxinator
+antigen bundle vagrant
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle command-not-found
 
