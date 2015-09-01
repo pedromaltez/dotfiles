@@ -1,6 +1,6 @@
 [user]
   name = Pedro Maltez
-  email = pedro@pedro.ac
+  email = pedro@pedromaltez.com
 [alias]
   st = status -sb
   ci = commit
